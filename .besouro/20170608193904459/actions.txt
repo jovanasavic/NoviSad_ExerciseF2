@@ -122,3 +122,10 @@ EditAction 1496947755213 TestPlanetExplorer.java 1419 5 16 4
 UnitTestCaseAction 1496947759164 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496947759166 TestPlanetExplorer.java FAIL
 EditAction 1496947804001 TestPlanetExplorer.java 1419 5 16 4
+UnitTestCaseAction 1496947807674 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496947807675 TestPlanetExplorer.java OK
+RefactoringAction 1496947817894 TestPlanetExplorer.java ADD voit test FIELD
+RefactoringAction 1496947819423 TestPlanetExplorer.java RENAME test=>voit test_ FIELD
+RefactoringAction 1496947825487 TestPlanetExplorer.java RENAME test_=>voit test_theEndOf FIELD
+RefactoringAction 1496947834523 TestPlanetExplorer.java RENAME test_theEndOf=>voit test_theEndOfGrid() METHOD
+EditAction 1496948148077 PlanetExplorer.java 3867 21 29 0
