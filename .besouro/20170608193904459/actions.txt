@@ -81,3 +81,21 @@ RefactoringAction 1496946600839 TestPlanetExplorer.java ADD void test_changing F
 RefactoringAction 1496946606403 TestPlanetExplorer.java RENAME test_changing=>void test_changingPosition() METHOD
 EditAction 1496947214837 PlanetExplorer.java 3072 15 25 0
 EditAction 1496947219347 TestPlanetExplorer.java 1114 4 13 3
+UnitTestCaseAction 1496947223139 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947223141 TestPlanetExplorer.java FAIL
+RefactoringAction 1496947273299 PlanetExplorer.java ADD String result FIELD
+RefactoringAction 1496947273303 PlanetExplorer.java ADD int counterForPosition FIELD
+RefactoringAction 1496947273304 PlanetExplorer.java ADD char position FIELD
+RefactoringAction 1496947274345 PlanetExplorer.java REMOVE result FIELD
+RefactoringAction 1496947274348 PlanetExplorer.java REMOVE counterForPosition FIELD
+RefactoringAction 1496947274349 PlanetExplorer.java REMOVE position FIELD
+RefactoringAction 1496947277440 PlanetExplorer.java ADD String result FIELD
+RefactoringAction 1496947277442 PlanetExplorer.java ADD int counterForPosition FIELD
+RefactoringAction 1496947277443 PlanetExplorer.java ADD char position FIELD
+RefactoringAction 1496947328007 PlanetExplorer.java ADD char METHOD
+RefactoringAction 1496947328008 PlanetExplorer.java ADD void setPositions(char METHOD
+RefactoringAction 1496947328010 PlanetExplorer.java ADD int getCounterForPosition() METHOD
+RefactoringAction 1496947328019 PlanetExplorer.java ADD void setCounterForPosition(int) METHOD
+RefactoringAction 1496947328020 PlanetExplorer.java ADD char getPosition() METHOD
+RefactoringAction 1496947328021 PlanetExplorer.java ADD void setPosition(char) METHOD
+EditAction 1496947351964 PlanetExplorer.java 3533 21 28 0

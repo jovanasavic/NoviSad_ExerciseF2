@@ -9,8 +9,14 @@ public class PlanetExplorer extends PlanetExplorerException {
 	int y;
 	String obstacles;
 	char [] positions = {'N','E', 'S','W'};
+	
+	
 	int xExplorer = 0;
 	int yExplorer = 0;
+	
+	String result;
+	int counterForPosition=0;
+	char position = positions[counterForPosition];
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -51,26 +57,24 @@ public class PlanetExplorer extends PlanetExplorerException {
 		}
 		
 		
-		String result;
-		int counterForPosition=0;
-		char position = positions[counterForPosition];
+		
 		if (command.equals("f"))
 		{
-			yExplorer++;
+			this.yExplorer++;
 			result = "(" + this.getxExplorer() + "," + this.getyExplorer()+ "," + position + ")";
 			return result;
 		}
 		
 		if (command.equals("b"))
 		{
-			yExplorer--;
+			this.yExplorer--;
 			result = "(" + this.getxExplorer() + "," + this.getyExplorer()+ "," + position + ")";
 			return result;
 		
 		}
 		if (command.equals("r"))
 		{
-			counterForPosition++;
+			this.counterForPosition++;
 			result = "(" + this.getxExplorer() + "," + this.getyExplorer()+ "," + position + ")";
 			return result;
 		
@@ -116,5 +120,23 @@ public class PlanetExplorer extends PlanetExplorerException {
 	}
 	public void setyExplorer(int yExplorer) {
 		this.yExplorer = yExplorer;
+	}
+	public char[] getPositions() {
+		return positions;
+	}
+	public void setPositions(char[] positions) {
+		this.positions = positions;
+	}
+	public int getCounterForPosition() {
+		return counterForPosition;
+	}
+	public void setCounterForPosition(int counterForPosition) {
+		this.counterForPosition = counterForPosition;
+	}
+	public char getPosition() {
+		return position;
+	}
+	public void setPosition(char position) {
+		this.position = position;
 	}
 }
