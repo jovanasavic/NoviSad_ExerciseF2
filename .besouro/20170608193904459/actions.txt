@@ -1,0 +1,28 @@
+FileOpenedAction 1496943544926 PlanetExplorer.java 1245 2 1 0
+RefactoringAction 1496944193845 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1496944196378 TestPlanetExplorer.java RENAME test_=>void test_moving FIELD
+RefactoringAction 1496944198925 TestPlanetExplorer.java RENAME test_moving=>void test_movingfort FIELD
+RefactoringAction 1496944202961 TestPlanetExplorer.java RENAME test_movingfort=>void test_movingForth FIELD
+RefactoringAction 1496944203979 TestPlanetExplorer.java RENAME test_movingForth=>void test_movingForth() METHOD
+RefactoringAction 1496944297056 PlanetExplorer.java ADD PlanetExplorer(int) METHOD
+RefactoringAction 1496944299590 PlanetExplorer.java RENAME PlanetExplorer(int)=>PlanetExplorer(int, int) METHOD
+RefactoringAction 1496944424952 TestPlanetExplorer.java RENAME test_movingForth()=>void test_movingForthOnce() METHOD
+RefactoringAction 1496944519770 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1496944524303 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1496944530379 PlanetExplorer.java ADD String obstac FIELD
+RefactoringAction 1496944532400 PlanetExplorer.java RENAME obstac=>String obstacles FIELD
+RefactoringAction 1496944711684 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1496944714208 TestPlanetExplorer.java RENAME test_=>void test_movinf FIELD
+RefactoringAction 1496944718258 TestPlanetExplorer.java RENAME test_movinf=>void test_movin FIELD
+RefactoringAction 1496944722290 TestPlanetExplorer.java REMOVE test_movin FIELD
+RefactoringAction 1496944797048 PlanetExplorer.java ADD int getX() METHOD
+RefactoringAction 1496944797049 PlanetExplorer.java ADD void setX(int) METHOD
+RefactoringAction 1496944797051 PlanetExplorer.java ADD int getY() METHOD
+RefactoringAction 1496944797052 PlanetExplorer.java ADD void setY(int) METHOD
+RefactoringAction 1496944797054 PlanetExplorer.java ADD String getObstacles() METHOD
+RefactoringAction 1496944797055 PlanetExplorer.java ADD void setObstacles(String) METHOD
+RefactoringAction 1496944852072 PlanetExplorer.java ADD char FIELD
+RefactoringAction 1496944954461 PlanetExplorer.java ADD char METHOD
+RefactoringAction 1496944954464 PlanetExplorer.java ADD void setPosition(char METHOD
+RefactoringAction 1496945027235 PlanetExplorer.java RENAME getPosition()=>char METHOD
+EditAction 1496945080447 PlanetExplorer.java 2054 11 16 0
