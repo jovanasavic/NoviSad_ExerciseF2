@@ -46,7 +46,7 @@ public class PlanetExplorer {
 		if (command.equals("f"))
 		{
 			this.yExplorer++;
-			position = "(" + this.getxExplorer() + "," + this.getyExplorer()+ ",N)";
+			position = "(" + this.getxExplorer() + "," + this.getyExplorer()+ "," + this.getPosition(0) + ")";
 			return position;
 		}
 		
