@@ -66,6 +66,20 @@ public class TestPlanetExplorer {
 		
 		
 	}
+	@Test
+	public void test_theEndOfGridd() throws PlanetExplorerException
+	{
+		PlanetExplorer planeta = new PlanetExplorer(3, 3);
+		planeta.setxExplorer(2);
+		planeta.setyExplorer(2);
+		planeta.setPosition('E');
+		
+		String result = planeta.executeCommand("f");
+		
+		assertEquals("End of grid error" , "(0,2,E)", result);
+	
+	}
+	
 	
 
 }
