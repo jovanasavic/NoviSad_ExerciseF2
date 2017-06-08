@@ -81,7 +81,14 @@ public class PlanetExplorer extends PlanetExplorerException {
 			}
 		
 		}
-		
+		if (command.equals("l"))
+		{
+			if (position == 'N')
+			{
+				result = "(" + this.getxExplorer() + "," + this.getyExplorer()+ ",W)";
+				return result;
+			}
+		}
 		
 		
 		

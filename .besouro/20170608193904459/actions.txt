@@ -105,3 +105,16 @@ EditAction 1496947474185 PlanetExplorer.java 3524 21 28 0
 UnitTestCaseAction 1496947478157 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496947478158 TestPlanetExplorer.java FAIL
 EditAction 1496947490808 PlanetExplorer.java 3524 21 28 0
+UnitTestCaseAction 1496947495343 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496947495346 TestPlanetExplorer.java OK
+RefactoringAction 1496947505614 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1496947508147 TestPlanetExplorer.java RENAME test_=>void test_changih FIELD
+RefactoringAction 1496947510171 TestPlanetExplorer.java RENAME test_changih=>void test_changingPo FIELD
+RefactoringAction 1496947513706 TestPlanetExplorer.java RENAME test_changingPosition()=>void test_changingPositionLeft() METHOD
+RefactoringAction 1496947519735 TestPlanetExplorer.java RENAME test_changingPositionLeft()=>void test_changingPositionRight() METHOD
+RefactoringAction 1496947524807 TestPlanetExplorer.java RENAME test_changingPo=>void test_changingPositionRih FIELD
+RefactoringAction 1496947526351 TestPlanetExplorer.java RENAME test_changingPositionRih=>void test_changingPositionRig FIELD
+RefactoringAction 1496947527878 TestPlanetExplorer.java RENAME test_changingPositionRig=>void test_changingPositionRight FIELD
+RefactoringAction 1496947528909 TestPlanetExplorer.java RENAME test_changingPositionRight=>void test_changingPositionRight()/2 METHOD
+RefactoringAction 1496947560251 TestPlanetExplorer.java RENAME test_changingPositionRight()/2=>void test_changingPositionLeft() METHOD
+EditAction 1496947751946 PlanetExplorer.java 3684 21 29 0
