@@ -119,3 +119,6 @@ RefactoringAction 1496947528909 TestPlanetExplorer.java RENAME test_changingPosi
 RefactoringAction 1496947560251 TestPlanetExplorer.java RENAME test_changingPositionRight()/2=>void test_changingPositionLeft() METHOD
 EditAction 1496947751946 PlanetExplorer.java 3684 21 29 0
 EditAction 1496947755213 TestPlanetExplorer.java 1419 5 16 4
+UnitTestCaseAction 1496947759164 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947759166 TestPlanetExplorer.java FAIL
+EditAction 1496947804001 TestPlanetExplorer.java 1419 5 16 4

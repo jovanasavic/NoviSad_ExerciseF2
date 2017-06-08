@@ -49,7 +49,7 @@ public class TestPlanetExplorer {
 		PlanetExplorer planeta = new PlanetExplorer(3,3);
 		String result = planeta.executeCommand("l");
 		
-		assertEquals("Not changing position when the command is left", ("0,0,W"), result);
+		assertEquals("Not changing position when the command is left", "(0,0,W)", result);
 	}
 	
 
