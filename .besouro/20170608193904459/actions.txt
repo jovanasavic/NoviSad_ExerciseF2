@@ -130,3 +130,9 @@ RefactoringAction 1496947825487 TestPlanetExplorer.java RENAME test_=>voit test_
 RefactoringAction 1496947834523 TestPlanetExplorer.java RENAME test_theEndOf=>voit test_theEndOfGrid() METHOD
 EditAction 1496948148077 PlanetExplorer.java 3867 21 29 0
 EditAction 1496948151118 TestPlanetExplorer.java 1750 6 22 5
+UnitTestCaseAction 1496948155085 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496948155087 TestPlanetExplorer.java OK
+RefactoringAction 1496948177384 TestPlanetExplorer.java ADD void test_theEndOfGrid()/2 METHOD
+RefactoringAction 1496948181430 TestPlanetExplorer.java RENAME test_theEndOfGrid()/2=>void test_theEndOfGrid FIELD
+RefactoringAction 1496948184991 TestPlanetExplorer.java RENAME test_theEndOfGrid()/2=>void test_theEndOfGridd() METHOD
+EditAction 1496948338482 PlanetExplorer.java 4078 21 29 0

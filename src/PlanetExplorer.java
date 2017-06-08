@@ -60,9 +60,16 @@ public class PlanetExplorer extends PlanetExplorerException {
 		
 		if (command.equals("f"))
 		{
-			if (this.xExplorer == this.x - 1)
+			if ((this.xExplorer == this.x - 1))
 			{
 				this.yExplorer=0;
+				result = "(" + this.getxExplorer() + "," + this.getyExplorer()+ "," + position + ")";
+				return result;
+				
+			}
+			if ((this.yExplorer == this.y - 1) || this.position == 'E')
+			{
+				this.xExplorer=0;
 				result = "(" + this.getxExplorer() + "," + this.getyExplorer()+ "," + position + ")";
 				return result;
 				
