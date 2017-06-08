@@ -5,10 +5,13 @@
 
 public class PlanetExplorer {
 	
-	int x=0;
-	int y=0;
+	int x;
+	int y;
 	String obstacles;
 	char [] positions = {'N','S', 'E','W'};
+	int xExplorer = 0;
+	int yExplorer = 0;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -42,8 +45,8 @@ public class PlanetExplorer {
 		String position;
 		if (command.equals("f"))
 		{
-			this.x++;
-			position = "(" + this.getObstacles() + "," + this.getY() + ",N)";
+			this.xExplorer++;
+			position = "(" + this.getxExplorer() + "," + this.getyExplorer()+ ",N)";
 			return position;
 		}
 		
@@ -74,5 +77,17 @@ public class PlanetExplorer {
 	}
 	public void setObstacles(String obstacles) {
 		this.obstacles = obstacles;
+	}
+	public int getxExplorer() {
+		return xExplorer;
+	}
+	public void setxExplorer(int xExplorer) {
+		this.xExplorer = xExplorer;
+	}
+	public int getyExplorer() {
+		return yExplorer;
+	}
+	public void setyExplorer(int yExplorer) {
+		this.yExplorer = yExplorer;
 	}
 }

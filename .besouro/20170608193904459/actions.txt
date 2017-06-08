@@ -37,3 +37,21 @@ RefactoringAction 1496945176291 PlanetExplorer.java RENAME position=>char FIELD
 UnitTestCaseAction 1496945200758 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496945200760 TestPlanetExplorer.java FAIL
 EditAction 1496945220496 PlanetExplorer.java 2051 11 16 0
+UnitTestCaseAction 1496945224173 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496945224175 TestPlanetExplorer.java FAIL
+RefactoringAction 1496945295793 PlanetExplorer.java ADD int x/2 FIELD
+RefactoringAction 1496945298828 PlanetExplorer.java RENAME x/2=>int xExplorer FIELD
+RefactoringAction 1496945313520 PlanetExplorer.java ADD int yExplorer FIELD
+RefactoringAction 1496945343646 PlanetExplorer.java ADD int getxExplorer() METHOD
+RefactoringAction 1496945343676 PlanetExplorer.java ADD void setxExplorer(int) METHOD
+RefactoringAction 1496945343678 PlanetExplorer.java ADD int getyExplorer() METHOD
+RefactoringAction 1496945343678 PlanetExplorer.java ADD void setyExplorer(int) METHOD
+RefactoringAction 1496945361208 PlanetExplorer.java REMOVE setxExplorer(int) METHOD
+RefactoringAction 1496945361218 PlanetExplorer.java REMOVE getyExplorer() METHOD
+RefactoringAction 1496945361219 PlanetExplorer.java REMOVE getxExplorer() METHOD
+RefactoringAction 1496945361220 PlanetExplorer.java REMOVE setyExplorer(int) METHOD
+RefactoringAction 1496945375764 PlanetExplorer.java ADD int getxExplorer() METHOD
+RefactoringAction 1496945375767 PlanetExplorer.java ADD void setxExplorer(int) METHOD
+RefactoringAction 1496945375772 PlanetExplorer.java ADD int getyExplorer() METHOD
+RefactoringAction 1496945375773 PlanetExplorer.java ADD void setyExplorer(int) METHOD
+EditAction 1496945422485 PlanetExplorer.java 2360 15 20 0
