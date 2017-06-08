@@ -33,14 +33,23 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test 
-	public void test_changingPosition() throws PlanetExplorerException
+	public void test_changingPositionRight() throws PlanetExplorerException
 	{
 		PlanetExplorer planeta = new PlanetExplorer(3,3);
 		String result = planeta.executeCommand("r");
 		
-		assertEquals("Not changing the position", "(0,0,E)", result);
+		assertEquals("Not changing the position when the command is right", "(0,0,E)", result);
 		
 		
+	}
+	
+	@Test
+	public void test_changingPositionLeft() throws PlanetExplorerException
+	{
+		PlanetExplorer planeta = new PlanetExplorer(3,3);
+		String result = planeta.executeCommand("l");
+		
+		assertEquals("Not changing position when the command is left", ("0,0,W"), result);
 	}
 	
 
