@@ -32,5 +32,16 @@ public class TestPlanetExplorer {
 		String result = planeta.executeCommand("a");
 	}
 	
+	@Test 
+	public void test_changingPosition() throws PlanetExplorerException
+	{
+		PlanetExplorer planeta = new PlanetExplorer(3,3);
+		String result = planeta.executeCommand("r");
+		
+		assertEquals("Not changing the position", "(0,0,E)", result);
+		
+		
+	}
+	
 
 }
