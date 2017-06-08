@@ -52,5 +52,20 @@ public class TestPlanetExplorer {
 		assertEquals("Not changing position when the command is left", "(0,0,W)", result);
 	}
 	
+	@Test 
+	public void test_theEndOfGrid() throws PlanetExplorerException
+	{
+		PlanetExplorer planeta = new PlanetExplorer(3, 3);
+		planeta.setxExplorer(2);
+		planeta.setyExplorer(2);
+		planeta.setPosition('N');
+		
+		String result = planeta.executeCommand("f");
+		
+		assertEquals("End of grid error" , "(2,0,N)", result);
+		
+		
+	}
+	
 
 }

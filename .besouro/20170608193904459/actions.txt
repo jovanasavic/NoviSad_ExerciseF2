@@ -129,3 +129,4 @@ RefactoringAction 1496947819423 TestPlanetExplorer.java RENAME test=>voit test_ 
 RefactoringAction 1496947825487 TestPlanetExplorer.java RENAME test_=>voit test_theEndOf FIELD
 RefactoringAction 1496947834523 TestPlanetExplorer.java RENAME test_theEndOf=>voit test_theEndOfGrid() METHOD
 EditAction 1496948148077 PlanetExplorer.java 3867 21 29 0
+EditAction 1496948151118 TestPlanetExplorer.java 1750 6 22 5
