@@ -8,7 +8,7 @@ public class PlanetExplorer extends PlanetExplorerException {
 	int x;
 	int y;
 	String obstacles;
-	char [] positions = {'N','S', 'E','W'};
+	char [] positions = {'N','E', 'S','W'};
 	int xExplorer = 0;
 	int yExplorer = 0;
 	
@@ -51,19 +51,28 @@ public class PlanetExplorer extends PlanetExplorerException {
 		}
 		
 		
-		String position;
+		String result;
+		int counterForPosition=0;
+		char position = positions[counterForPosition];
 		if (command.equals("f"))
 		{
 			yExplorer++;
-			position = "(" + this.getxExplorer() + "," + this.getyExplorer()+ "," + this.getPosition(0) + ")";
-			return position;
+			result = "(" + this.getxExplorer() + "," + this.getyExplorer()+ "," + position + ")";
+			return result;
 		}
 		
 		if (command.equals("b"))
 		{
 			yExplorer--;
-			position = "(" + this.getxExplorer() + "," + this.getyExplorer()+ "," + this.getPosition(0) + ")";
-			return position;
+			result = "(" + this.getxExplorer() + "," + this.getyExplorer()+ "," + position + ")";
+			return result;
+		
+		}
+		if (command.equals("r"))
+		{
+			counterForPosition++;
+			result = "(" + this.getxExplorer() + "," + this.getyExplorer()+ "," + position + ")";
+			return result;
 		
 		}
 		

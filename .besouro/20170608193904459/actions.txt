@@ -75,3 +75,8 @@ RefactoringAction 1496946297396 TestPlanetExplorer.java RENAME test_exception_er
 EditAction 1496946570962 PlanetExplorer.java 2857 15 22 0
 CompilationAction 1496946574142 TestPlanetExplorer.java
 EditAction 1496946574374 TestPlanetExplorer.java 858 3 10 2
+UnitTestCaseAction 1496946578144 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496946578147 TestPlanetExplorer.java OK
+RefactoringAction 1496946600839 TestPlanetExplorer.java ADD void test_changing FIELD
+RefactoringAction 1496946606403 TestPlanetExplorer.java RENAME test_changing=>void test_changingPosition() METHOD
+EditAction 1496947214837 PlanetExplorer.java 3072 15 25 0
