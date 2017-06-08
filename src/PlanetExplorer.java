@@ -3,7 +3,7 @@
 // Finish time:
 // Student ID:
 
-public class PlanetExplorer {
+public class PlanetExplorer extends PlanetExplorerException {
 	
 	int x;
 	int y;
@@ -31,7 +31,7 @@ public class PlanetExplorer {
 		
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws PlanetExplorerException{
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -42,6 +42,15 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		for (int i = 0; i <command.length();i++)
+		{
+			if ( (command.charAt(i) != 'b') && (command.charAt(i) != 'f') && 
+				 (command.charAt(i) != 'l') && (command.charAt(i) != 'r'))
+				throw new PlanetExplorerException();
+
+		}
+		
+		
 		String position;
 		if (command.equals("f"))
 		{

@@ -66,3 +66,10 @@ UnitTestSessionAction 1496945510611 TestPlanetExplorer.java OK
 RefactoringAction 1496945547374 TestPlanetExplorer.java ADD void test_MovingBack() METHOD
 EditAction 1496945823094 PlanetExplorer.java 2563 15 21 0
 EditAction 1496945826065 TestPlanetExplorer.java 565 2 8 2
+UnitTestCaseAction 1496945829584 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496945829585 TestPlanetExplorer.java OK
+RefactoringAction 1496946287259 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1496946291801 TestPlanetExplorer.java RENAME test=>void test_exception_ FIELD
+RefactoringAction 1496946295873 TestPlanetExplorer.java RENAME test_exception_=>void test_exception_error FIELD
+RefactoringAction 1496946297396 TestPlanetExplorer.java RENAME test_exception_error=>void test_exception_errorCommand FIELD
+EditAction 1496946570962 PlanetExplorer.java 2857 15 22 0
