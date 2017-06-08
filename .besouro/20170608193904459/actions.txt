@@ -99,3 +99,6 @@ RefactoringAction 1496947328019 PlanetExplorer.java ADD void setCounterForPositi
 RefactoringAction 1496947328020 PlanetExplorer.java ADD char getPosition() METHOD
 RefactoringAction 1496947328021 PlanetExplorer.java ADD void setPosition(char) METHOD
 EditAction 1496947351964 PlanetExplorer.java 3533 21 28 0
+UnitTestCaseAction 1496947356234 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947356236 TestPlanetExplorer.java FAIL
+EditAction 1496947474185 PlanetExplorer.java 3524 21 28 0

@@ -74,9 +74,11 @@ public class PlanetExplorer extends PlanetExplorerException {
 		}
 		if (command.equals("r"))
 		{
-			this.counterForPosition++;
-			result = "(" + this.getxExplorer() + "," + this.getyExplorer()+ "," + position + ")";
-			return result;
+			if (position == 'N')
+			{
+				result = "(" + this.getxExplorer() + "," + this.getyExplorer()+ ",I)";
+				return result;
+			}
 		
 		}
 		
