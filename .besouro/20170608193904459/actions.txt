@@ -65,3 +65,4 @@ UnitTestCaseAction 1496945510600 TestPlanetExplorer.java OK
 UnitTestSessionAction 1496945510611 TestPlanetExplorer.java OK
 RefactoringAction 1496945547374 TestPlanetExplorer.java ADD void test_MovingBack() METHOD
 EditAction 1496945823094 PlanetExplorer.java 2563 15 21 0
+EditAction 1496945826065 TestPlanetExplorer.java 565 2 8 2
