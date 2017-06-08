@@ -55,3 +55,6 @@ RefactoringAction 1496945375767 PlanetExplorer.java ADD void setxExplorer(int) M
 RefactoringAction 1496945375772 PlanetExplorer.java ADD int getyExplorer() METHOD
 RefactoringAction 1496945375773 PlanetExplorer.java ADD void setyExplorer(int) METHOD
 EditAction 1496945422485 PlanetExplorer.java 2360 15 20 0
+UnitTestCaseAction 1496945426072 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496945426074 TestPlanetExplorer.java FAIL
+EditAction 1496945463136 PlanetExplorer.java 2360 15 20 0
