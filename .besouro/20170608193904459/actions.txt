@@ -26,3 +26,4 @@ RefactoringAction 1496944954461 PlanetExplorer.java ADD char METHOD
 RefactoringAction 1496944954464 PlanetExplorer.java ADD void setPosition(char METHOD
 RefactoringAction 1496945027235 PlanetExplorer.java RENAME getPosition()=>char METHOD
 EditAction 1496945080447 PlanetExplorer.java 2054 11 16 0
+EditAction 1496945083970 TestPlanetExplorer.java 384 2 4 1

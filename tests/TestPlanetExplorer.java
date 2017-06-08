@@ -8,4 +8,14 @@ public class TestPlanetExplorer {
 	public void test_executeCommand() {
 		fail("Not yet implemented");
 	}
+	@Test
+	public void test_movingForthOnce(){
+		PlanetExplorer planeta = new PlanetExplorer(3,3);
+		String result = planeta.executeCommand("f");
+		
+		assertEquals("Not moving forth", "(0,1,N)", result);
+		
+	}
+	
+
 }
