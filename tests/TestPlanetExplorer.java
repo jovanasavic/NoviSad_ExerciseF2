@@ -6,7 +6,7 @@ public class TestPlanetExplorer {
 
 	
 	@Test
-	public void test_movingForthOnce(){
+	public void test_movingForthOnce() throws PlanetExplorerException{
 		PlanetExplorer planeta = new PlanetExplorer(3,3);
 		String result = planeta.executeCommand("f");
 		
@@ -15,7 +15,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_MovingBack(){
+	public void test_MovingBack() throws PlanetExplorerException{
 		
 		PlanetExplorer planeta = new PlanetExplorer(3,3);
 		planeta.setxExplorer(0);
@@ -23,6 +23,13 @@ public class TestPlanetExplorer {
 		String result = planeta.executeCommand("b");
 		
 		assertEquals("Not moving back", "(0,0,N)", result);
+	}
+	
+	@Test (expected = PlanetExplorerException.class)
+	public void test_exception_errorCommand() throws PlanetExplorerException
+	{
+		PlanetExplorer planeta = new PlanetExplorer(3,3);
+		String result = planeta.executeCommand("a");
 	}
 	
 

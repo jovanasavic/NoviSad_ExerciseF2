@@ -73,3 +73,5 @@ RefactoringAction 1496946291801 TestPlanetExplorer.java RENAME test=>void test_e
 RefactoringAction 1496946295873 TestPlanetExplorer.java RENAME test_exception_=>void test_exception_error FIELD
 RefactoringAction 1496946297396 TestPlanetExplorer.java RENAME test_exception_error=>void test_exception_errorCommand FIELD
 EditAction 1496946570962 PlanetExplorer.java 2857 15 22 0
+CompilationAction 1496946574142 TestPlanetExplorer.java
+EditAction 1496946574374 TestPlanetExplorer.java 858 3 10 2
