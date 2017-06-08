@@ -45,10 +45,19 @@ public class PlanetExplorer {
 		String position;
 		if (command.equals("f"))
 		{
-			this.yExplorer++;
+			yExplorer++;
 			position = "(" + this.getxExplorer() + "," + this.getyExplorer()+ "," + this.getPosition(0) + ")";
 			return position;
 		}
+		
+		if (command.equals("b"))
+		{
+			yExplorer--;
+			position = "(" + this.getxExplorer() + "," + this.getyExplorer()+ "," + this.getPosition(0) + ")";
+			return position;
+		
+		}
+		
 		
 		
 		

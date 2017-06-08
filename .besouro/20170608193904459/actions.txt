@@ -61,3 +61,7 @@ EditAction 1496945463136 PlanetExplorer.java 2360 15 20 0
 UnitTestCaseAction 1496945466895 TestPlanetExplorer.java OK
 UnitTestSessionAction 1496945466896 TestPlanetExplorer.java OK
 EditAction 1496945505853 PlanetExplorer.java 2386 15 20 0
+UnitTestCaseAction 1496945510600 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496945510611 TestPlanetExplorer.java OK
+RefactoringAction 1496945547374 TestPlanetExplorer.java ADD void test_MovingBack() METHOD
+EditAction 1496945823094 PlanetExplorer.java 2563 15 21 0
